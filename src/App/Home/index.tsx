@@ -34,12 +34,19 @@ export function Home() {
           justifyContent: "center"
         }}
       >
-        <Text style={{ fontSize: 16, marginBottom: 10, fontWeight: "bold" }}>
-          Um jeito mais fácil de ficarmos conectados
+        <Text
+          style={{
+            fontSize: 16,
+            marginBottom: 10,
+            fontWeight: "bold",
+            color: "#444"
+          }}
+        >
+          Um jeito mais fácil de ficarmos conectados!
         </Text>
 
 
-        <FontAwesome name="user-circle" size={40} color="grey" />
+        <FontAwesome name="user-circle" size={40} color="#444" />
 
         <TextInput
           style={{
